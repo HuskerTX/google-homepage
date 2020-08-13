@@ -1,0 +1,16 @@
+
+
+.header {
+    background: LightSkyBlue;
+}
+
+.main {
+    display: flex;
+    background: LightSalmon;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    background: LightPink;
+}
