@@ -1,10 +1,15 @@
 
 .body {
     display: flex;
+    font-family: arial, sans-serif;
+    -moz-appearance: none;
 }
 
 .header {
-    background: LightSkyBlue;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    width: 100%;
 }
 
 .main {
@@ -12,7 +17,52 @@
     background: white;
     flex-direction: column;
     align-items: center;
-    
+    margin-top: 5em;
+}
+
+a.nav {
+    color: black;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+}
+
+a.nav:hover {
+    text-decoration: underline;
+    font-family: arial, sans-serif;
+}
+
+a.foot {
+    color: rgb(138, 138, 138);
+    text-decoration: none;
+    font-family: arial, sans-serif;
+}
+
+a.foot:hover {
+    text-decoration: underline;
+    font-family: arial, sans-serif;
+}
+
+.header-left {
+    justify-content: flex-start;
+}
+
+.header-right {
+    justify-content: flex-end;
+}
+
+#about {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#gmail {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#images {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 form {
@@ -25,8 +75,7 @@ input[type=text] {
     width: 500px;
     box-sizing: border-box;
     border: 2px solid #ccc;
-    border-radius: 10px;
-    
+    border-radius: 10px;  
 }
 
 input[type=text]:hover {
@@ -69,5 +118,52 @@ input[type=submit]:hover{
 }
 
 .footer {
-    background: LightPink;
+    display: flex;
+    background: rgb(228, 228, 228);
+    bottom: 0;
+    font-size: 10pt;
+    height: 35px;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(114, 114, 114);    
 }
+
+.footer-left {
+    justify-content: flex-start;
+}
+
+.footer-right {
+    justify-content: flex-end;
+}
+
+#advertising {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#business {
+    padding-left: 15px;
+    padding-right: 15px    
+}
+
+#how-search-works {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#privacy {
+    padding-left: 15px;
+    padding-right: 15px;
+}  
+
+#terms {
+    padding-left: 15px;
+    padding-right: 15px;
+}  
+
+#settings {
+    padding-left: 15px;
+    padding-right: 15px;
+}   
